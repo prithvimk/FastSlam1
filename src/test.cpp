@@ -16,11 +16,9 @@ Eigen::MatrixXd motion_model(Eigen::MatrixXd x, Eigen::MatrixXd u) {
 }
 
 int main() {
-  Eigen::MatrixXd Q(2, 2);
-  Q << 3.0, 0.0,
-     0.0, (10.0 * M_PI / 180);
-  std::cout << Q << std::endl;
-
-  std::cout << (double) Q(1, 1);
+  Eigen::MatrixXd zp(2, 1);
+    zp << 8, 
+          2;
+  std::cout << zp;
   return 0;
 }
