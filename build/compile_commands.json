@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/prithvi/FastSlam1/build",
+  "command": "/usr/bin/c++   -I/home/prithvi/FastSlam1/External/matplotlib-cpp -isystem /usr/include/eigen3  -O3 -g   -std=gnu++1z -o CMakeFiles/FastSlam1.dir/src/slam1.cpp.o -c /home/prithvi/FastSlam1/src/slam1.cpp",
+  "file": "/home/prithvi/FastSlam1/src/slam1.cpp"
+}
+]
